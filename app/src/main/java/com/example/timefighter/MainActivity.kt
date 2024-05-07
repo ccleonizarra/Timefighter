@@ -39,6 +39,7 @@ fun PreviewMessageCard() {
     MessageCard(
         msg = Message("My name is Nico", "Jetpack Compose is great!")
     )
+
 }
 
 @Composable
@@ -85,5 +86,6 @@ fun TheButton(onClick: () -> Unit) {
             Text("Click")
         }
         Spacer(modifier = Modifier.height(2.dp))
+
     }
 }

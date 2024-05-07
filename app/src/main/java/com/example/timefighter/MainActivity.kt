@@ -34,6 +34,5 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     TimefighterTheme {
         Greeting("Android")
-
     }
 }

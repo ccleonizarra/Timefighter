@@ -33,7 +33,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     TimefighterTheme {
-        Greeting("Androidd")
+        Greeting("Android")
 
     }
 }
